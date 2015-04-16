@@ -5,10 +5,7 @@
  */
 
        QueryBuilder.define('jqsortable', function (options) {
-        /**
-         * Init HTML5 drag and drop
-         */
-
+   
         this.on('afterInit', function (e) {
             // configure jQuery to use dataTransfer
             $.event.props.push('dataTransfer');
